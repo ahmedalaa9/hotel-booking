@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+body {
+  overflow-x: hidden;
+}
+button {
+  cursor: pointer;
+}
+.btn {
+  padding: 15px 40px;
+  border-radius: 10px;
+  border: none;
+  transition: all 0.21s;
+  background-color: #fff;
+  text-decoration: none;
+  color: #000;
+  display: inline-block;
+}
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 3px 5px 5px #00000047;
+}
